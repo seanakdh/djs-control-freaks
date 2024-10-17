@@ -1,3 +1,6 @@
+import com.djs.controlfreaks.server.Server
+
 fun main() {
-    println("Hello World!")
+   val server = Server(42069u)
+   server.run()
 }
